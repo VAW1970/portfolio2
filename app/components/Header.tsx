@@ -36,8 +36,8 @@ export default function Header() {
           <Image
             src="/VAW.jpeg"
             alt="Valdir Albino Wallauer"
-            width={200}
-            height={220}
+            width={180}
+            height={260}
             style={{ borderRadius: "8px" }}
           />
           <p style={{ fontSize: "0.9rem", marginTop: "0.3rem" }}>

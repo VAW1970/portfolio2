@@ -1,45 +1,172 @@
-/* Tema Light */
+/* ===============================
+   Tipografia Global
+================================= */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===============================
+   Tema Light / Dark
+================================= */
 body.light {
   background-color: #F8F9FA;
   color: #1F1F1F;
 }
 
-/* Tema Dark */
 body.dark {
   background-color: #1a1a1a;
   color: #f2f2f2;
 }
 
-/* Cards */
-body.light .card {
-  background: white;
+/* ===============================
+   Container geral
+================================= */
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ===============================
+   Cabeçalhos
+================================= */
+h1, h2, h3, h4 {
+  font-family: 'Helvetica', sans-serif;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+
+/* ===============================
+   Cards
+================================= */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
   border: 1px solid #EDEDED;
+  padding: 20px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
 }
 
 body.dark .card {
-  background: #2b2b2b;
+  background-color: #2b2b2b;
   border: 1px solid #444;
+  box-shadow: 0px 2px 12px rgba(0,0,0,0.4);
 }
 
-/* Divisores */
-body.dark .divider {
-  background: #444;
+/* ===============================
+   Botões de projeto
+================================= */
+.project-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #4F8BF9;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
 }
 
-/* Botões */
-body.light .project-btn {
-  background: #4F8BF9;
+.project-btn:hover {
+  background-color: #3A6FD9;
 }
 
 body.dark .project-btn {
-  background: #6b9cff;
+  background-color: #6b9cff;
 }
 
-/* Footer */
+body.dark .project-btn:hover {
+  background-color: #4f8bf9;
+}
+
+/* ===============================
+   Divisores
+================================= */
+.divider {
+  height: 1px;
+  background-color: #EDEDED;
+  margin: 2rem 0;
+}
+
+body.dark .divider {
+  background-color: #444;
+}
+
+/* ===============================
+   Imagens
+================================= */
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* ===============================
+   Footer / Contato
+================================= */
+.footer {
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
 body.dark .footer {
   color: #ccc;
 }
 
 .footer a {
   color: #4F8BF9;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Columns / Responsividade simples
+================================= */
+.columns {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* ===============================
+   Botão Toggle Tema
+================================= */
+.theme-toggle-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* ===============================
+   Pequenos ajustes de links
+================================= */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
