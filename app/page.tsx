@@ -1,92 +1,72 @@
 "use client";
 
+import { motion } from "framer-motion";
+import { useContext } from "react";
+import { ThemeContext } from "./providers";
+
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 export default function Home() {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
-    <main
-      style={{
-        backgroundColor: "#F8F9FA",
-        minHeight: "100vh",
-        padding: "2rem",
-        fontFamily: "Helvetica, sans-serif",
-      }}
-    >
-      {/* ESTILOS GERAIS */}
-      <style>{`
-        h1, h2, h3, h4 {
-          font-family: 'Helvetica', sans-serif;
-          color: #1F1F1F;
-        }
+    <main style={{ padding: "2rem" }}>
+      {/* Botão Light/Dark */}
+      <button
+        onClick={toggleTheme}
+        style={{
+          padding: "8px 16px",
+          borderRadius: "8px",
+          border: "none",
+          cursor: "pointer",
+          marginBottom: "1.5rem",
+          background: theme === "light" ? "#222" : "#ddd",
+          color: theme === "light" ? "#fff" : "#000",
+        }}
+      >
+        {theme === "light" ? "🌙 Modo Escuro" : "☀️ Modo Claro"}
+      </button>
 
-        .card {
-          background-color: white;
-          padding: 20px;
-          border-radius: 12px;
-          box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
-          border: 1px solid #EDEDED;
-        }
+      {/* HEADER */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <Header />
+      </motion.div>
 
-        .columns {
-          display: flex;
-          gap: 2rem;
-          margin-top: 1.5rem;
-        }
+      {/* SKILLS */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        <Skills />
+      </motion.div>
 
-        .col {
-          flex: 1;
-        }
+      {/* PROJECTS */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <Projects />
+      </motion.div>
 
-        .col1 { flex: 1; }
-        .col2 { flex: 3; }
-
-        .divider {
-          width: 100%;
-          height: 1px;
-          background-color: #ddd;
-          margin: 2rem 0;
-        }
-
-        .project-btn {
-          display: inline-block;
-          padding: 10px 20px;
-          border-radius: 8px;
-          background-color: #4F8BF9;
-          color: white !important;
-          font-weight: 500;
-          margin-top: 10px;
-          transition: 0.2s;
-        }
-
-        .project-btn:hover {
-          background-color: #3A6FD9;
-        }
-
-        .footer {
-          text-align: center;
-          margin-top: 2rem;
-          padding: 2rem 0;
-          color: #1F1F1F;
-        }
-
-        .footer a {
-          color: #4F8BF9;
-        }
-
-        .footer-copy {
-          margin-top: 1.5rem;
-          font-size: 0.85rem;
-          color: #777;
-        }
-      `}</style>
-
-      <Header />
-      <Skills />
-      <Projects />
-      <Footer />
+      {/* FOOTER */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+      >
+        <Footer />
+      </motion.div>
     </main>
   );
 }
