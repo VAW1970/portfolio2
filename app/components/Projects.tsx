@@ -112,7 +112,7 @@ export default function Projects() {
         </p>
 
         <a
-          href="https://appartigos.streamlit.app"
+          href="https://vawarticles3.app.vercel"
           target="_blank"
           className="project-btn"
         >
