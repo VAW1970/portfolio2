@@ -112,7 +112,7 @@ export default function Projects() {
         </p>
 
         <a
-          href="https://vawarticles3.app.vercel"
+          href="https://vawarticles3.vercel.app"
           target="_blank"
           className="project-btn"
         >
