@@ -9,19 +9,21 @@ export default function Skills() {
           <h4>🔹 Programação</h4>
           <ul>
             <li>Python</li>
+            <li>TypeScript</li>
             <li>Automação</li>
-            <li>APIs</li>
-            <li>Git/GitHub</li>
+            <li>APIs REST e Webhooks</li>
+            <li>Git / GitHub</li>
           </ul>
         </div>
 
         <div className="col">
           <h4>🔹 Web & Data</h4>
           <ul>
-            <li>Streamlit</li>
+            <li>Next.js / React</li>
             <li>Django</li>
+            <li>Streamlit</li>
             <li>SQL</li>
-            <li>ETL</li>
+            <li>ETL & Manipulação de Dados</li>
           </ul>
         </div>
 
@@ -29,9 +31,9 @@ export default function Skills() {
           <h4>🔹 Inteligência Artificial</h4>
           <ul>
             <li>OpenAI API</li>
+            <li>Modelos de Linguagem (RAG)</li>
             <li>Visão Computacional</li>
-            <li>RAG</li>
-            <li>NLP</li>
+            <li>NLP e Análise de Textos</li>
           </ul>
         </div>
       </div>
