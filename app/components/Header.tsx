@@ -4,20 +4,19 @@ export default function Header() {
   return (
     <>
       <h1>💼 Portfólio Profissional</h1>
-      <h3>Transição de carreira para Data Science, IA e Desenvolvimento Web</h3>
+      <h3>Transição de Carreira para Data Science, IA e Desenvolvimento Web</h3>
 
       <p>
         Obrigado por visitar meu portfólio!
         <br /><br />
-        💻⚗️ Expandindo horizontes e conectando saberes: como profissional de
-        Química Industrial, decidi investir na formação em Análise e
-        Desenvolvimento de Sistemas (ADS) para ampliar minha atuação e agregar
-        valor ao meu perfil técnico. Ao longo do curso, mergulhei em lógica de
-        programação, banco de dados, desenvolvimento web, construindo uma base
-        sólida para integrar tecnologia à indústria.
+        Sou um profissional em transição para a área de Tecnologia, integrando
+        minha trajetória na Química Industrial com novas competências em
+        programação, inteligência artificial e desenvolvimento web. A formação
+        em Análise e Desenvolvimento de Sistemas (ADS) consolidou minha base em
+        lógica de programação, bancos de dados e construção de aplicações,
+        permitindo unir tecnologia à indústria de forma estratégica.
         <br /><br />
-        Atualmente estou em transição de carreira para a área de Tecnologia, com
-        foco em:
+        Atualmente, estou focado em aprofundar conhecimentos nas áreas de:
       </p>
 
       <ul>
@@ -25,6 +24,7 @@ export default function Header() {
         <li>Ciência de Dados</li>
         <li>Desenvolvimento Python (Web / Back-end)</li>
         <li>Django e Streamlit</li>
+        <li>TypeScript e Next.js</li>
       </ul>
 
       <div className="divider" />
@@ -47,20 +47,24 @@ export default function Header() {
 
         <div className="col2">
           <p>
-            Especialista em Química Industrial com mais de 35 anos de
-            experiência, em transição para a área de tecnologia.
+            Sou Especialista em Química Industrial com mais de 35 anos de
+            experiência, atualmente direcionando minha carreira para Tecnologia.
             <br /><br />
-            Sou um solucionador de problemas apaixonado por construir ferramentas
-            úteis e aprender continuamente.
+            Apaixonado por resolver problemas reais e construir ferramentas que
+            agregam valor, venho aplicando boas práticas de engenharia de
+            software aliadas ao meu background técnico.
             <br /><br />
-            Possuo conhecimentos em <b>Python</b>, <b>Django</b>,{" "}
-            <b>Streamlit</b>, <b>IA aplicada</b>, estudo{" "}
-            <b>Modelos de Linguagem (RAG)</b> e <b>Visão Computacional</b>.
+            Possuo experiência e estudos em{" "}
+            <b>Python</b>, <b>Django</b>, <b>Streamlit</b>,{" "}
+            <b>TypeScript</b>, <b>Next.js</b>, <b>Inteligência Artificial</b>,{" "}
+            <b>Modelos de Linguagem (RAG)</b> e{" "}
+            <b>Visão Computacional</b>.
             <br /><br />
-            Minha experiência prévia em <b>ISO 9001/14001</b>,{" "}
+            Minha atuação prévia com <b>ISO 9001/14001</b>,{" "}
             <b>Química Analítica</b>, <b>Assuntos Regulatórios</b> e{" "}
-            <b>Controle de Qualidade</b> fortalece minha base para aplicar boas
-            práticas de engenharia de software em contextos reais.
+            <b>Controle de Qualidade</b> fortalece minha atenção a processos,
+            rastreabilidade, documentação e confiabilidade — elementos essenciais
+            também no desenvolvimento de software.
           </p>
         </div>
       </div>
