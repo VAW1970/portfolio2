@@ -11,7 +11,7 @@ export default function Projects() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: [0.16, 1, 0.3, 1], // <<< CORREÇÃO
+        ease: [0.16, 1, 0.3, 1],
       },
     },
   };
@@ -23,7 +23,7 @@ export default function Projects() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: [0.16, 1, 0.3, 1], // <<< CORREÇÃO
+        ease: [0.16, 1, 0.3, 1],
       },
     },
   };
@@ -52,9 +52,11 @@ export default function Projects() {
       >
         <h3>🧪 CRUD Django — Gerenciamento de Reagentes Químicos</h3>
         <p>
-          Aplicação Django completa (CRUD) para controle de reagentes químicos em
-          laboratório. Inclui autenticação, controle de estoque, registro de
-          validade e alertas automáticos. Hospedado no PythonAnywhere.
+          Sistema desenvolvido em <b>Django</b> para controle de reagentes em
+          laboratório, com CRUD completo, autenticação, gestão de estoque,
+          monitoramento de validade e alertas automáticos. Um projeto que une
+          experiência técnica na área química com boas práticas de desenvolvimento
+          back-end.
         </p>
 
         <a
@@ -78,9 +80,11 @@ export default function Projects() {
       >
         <h3>🧪🔍 IA — Identificação de Vidrarias de Laboratório</h3>
         <p>
-          Aplicação Streamlit que utiliza visão computacional e modelos de IA para
-          classificar vidrarias de laboratório a partir de uma imagem enviada pelo
-          usuário.
+          Aplicação em <b>Streamlit</b> utilizando modelos de{" "}
+          <b>Visão Computacional</b> para identificar automaticamente diferentes
+          tipos de vidrarias de laboratório a partir de uma imagem enviada pelo
+          usuário. Criado para apoiar estudantes, pesquisadores e ambientes de
+          ensino.
         </p>
 
         <a
@@ -102,13 +106,14 @@ export default function Projects() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <h3>
-          📚🤖 IA com RAG — Assistente para Interpretação de Artigos Científicos
-        </h3>
+        <h3>📚🤖 IA com RAG — Assistente para Interpretação de Artigos Científicos</h3>
         <p>
-          Aplicação Streamlit com RAG para auxiliar na leitura e interpretação de
-          artigos científicos. O usuário envia PDFs e o assistente consulta o
-          conteúdo para responder perguntas.
+          Assistente inteligente desenvolvido com <b>RAG (Retrieval-Augmented
+          Generation)</b> para análise de PDFs científicos. Utiliza{" "}
+          <b>Next.js + TypeScript</b> no front-end e modelos de IA para extrair,
+          indexar e consultar o conteúdo de artigos. Ideal para pesquisadores,
+          estudantes e profissionais que precisam interpretar materiais técnicos
+          de forma ágil.
         </p>
 
         <a
