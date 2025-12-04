@@ -100,7 +100,7 @@ export default function Projects() {
         </p>
 
         <a
-          href="https://labglassware.streamlit.app"
+          href="https://https://labglass2.vercel.app"
           target="_blank"
           className="project-btn"
         >
