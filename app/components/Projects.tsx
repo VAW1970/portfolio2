@@ -88,10 +88,13 @@ export default function Projects() {
 
         <div className="badges">
           <span className="badge">Python</span>
-          <span className="badge">Streamlit</span>
+          <span className="badge">Pytorch</span>
+          <span className="badge">Tensorflow</span>
+          <span className="badge">Opencv</span>
+          <span className="badge">TypeScript</span>
           <span className="badge">Visão Computacional</span>
-          <span className="badge">Classificação de Imagens</span>
-          <span className="badge">OpenAI API</span>
+          
+          <span className="badge">GEMINI API</span>
         </div>
 
         <p>
@@ -123,11 +126,11 @@ export default function Projects() {
         </h3>
 
         <div className="badges">
+          <span className="badge">Python</span>
+          <span className="badge">Langchain</span>
           <span className="badge">TypeScript</span>
-          <span className="badge">Next.js</span>
           <span className="badge">RAG</span>
-          <span className="badge">Vector DB</span>
-          <span className="badge">OpenAI API</span>
+          <span className="badge">Vector DB</span>          
           <span className="badge">PDF Parsing</span>
         </div>
 
