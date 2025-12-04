@@ -11,7 +11,6 @@ export default function Skills() {
             <li>Python</li>
             <li>TypeScript</li>
             <li>Automação</li>
-            <li>APIs REST e Webhooks</li>
             <li>Git / GitHub</li>
           </ul>
         </div>
