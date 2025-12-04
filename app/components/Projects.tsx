@@ -92,9 +92,7 @@ export default function Projects() {
           <span className="badge">Tensorflow</span>
           <span className="badge">Opencv</span>
           <span className="badge">TypeScript</span>
-          <span className="badge">Visão Computacional</span>
-          
-          <span className="badge">GEMINI API</span>
+          <span className="badge">Visão Computacional</span>         
         </div>
 
         <p>
