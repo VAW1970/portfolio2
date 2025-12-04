@@ -30,9 +30,9 @@ export default function Skills() {
         <div className="col">
           <h4>🔹 Inteligência Artificial</h4>
           <ul>
-            <li>OpenAI API</li>
             <li>Modelos de Linguagem (RAG)</li>
             <li>Visão Computacional</li>
+            <li>Deep Learning</li>
             <li>NLP e Análise de Textos</li>
           </ul>
         </div>
