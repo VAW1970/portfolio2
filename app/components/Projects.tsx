@@ -51,12 +51,18 @@ export default function Projects() {
         style={{ marginTop: "1.5rem" }}
       >
         <h3>🧪 CRUD Django — Gerenciamento de Reagentes Químicos</h3>
+
+        <div className="badges">
+          <span className="badge">Python</span>
+          <span className="badge">Django</span>
+          <span className="badge">SQLite</span>
+          <span className="badge">Autenticação</span>
+          <span className="badge">Deploy PythonAnywhere</span>
+        </div>
+
         <p>
-          Sistema desenvolvido em <b>Django</b> para controle de reagentes em
-          laboratório, com CRUD completo, autenticação, gestão de estoque,
-          monitoramento de validade e alertas automáticos. Um projeto que une
-          experiência técnica na área química com boas práticas de desenvolvimento
-          back-end.
+          Aplicação completa para controle de reagentes: CRUD, autenticação,
+          estoque, validade e alertas automáticos.
         </p>
 
         <a
@@ -79,12 +85,18 @@ export default function Projects() {
         viewport={{ once: true }}
       >
         <h3>🧪🔍 IA — Identificação de Vidrarias de Laboratório</h3>
+
+        <div className="badges">
+          <span className="badge">Python</span>
+          <span className="badge">Streamlit</span>
+          <span className="badge">Visão Computacional</span>
+          <span className="badge">Classificação de Imagens</span>
+          <span className="badge">OpenAI API</span>
+        </div>
+
         <p>
-          Aplicação em <b>Streamlit</b> utilizando modelos de{" "}
-          <b>Visão Computacional</b> para identificar automaticamente diferentes
-          tipos de vidrarias de laboratório a partir de uma imagem enviada pelo
-          usuário. Criado para apoiar estudantes, pesquisadores e ambientes de
-          ensino.
+          Sistema que utiliza IA e visão computacional para classificar vidrarias
+          de laboratório a partir de imagens enviadas pelo usuário.
         </p>
 
         <a
@@ -106,14 +118,22 @@ export default function Projects() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <h3>📚🤖 IA com RAG — Assistente para Interpretação de Artigos Científicos</h3>
+        <h3>
+          📚🤖 IA com RAG — Assistente para Interpretação de Artigos Científicos
+        </h3>
+
+        <div className="badges">
+          <span className="badge">TypeScript</span>
+          <span className="badge">Next.js</span>
+          <span className="badge">RAG</span>
+          <span className="badge">Vector DB</span>
+          <span className="badge">OpenAI API</span>
+          <span className="badge">PDF Parsing</span>
+        </div>
+
         <p>
-          Assistente inteligente desenvolvido com <b>RAG (Retrieval-Augmented
-          Generation)</b> para análise de PDFs científicos. Utiliza{" "}
-          <b>Next.js + TypeScript</b> no front-end e modelos de IA para extrair,
-          indexar e consultar o conteúdo de artigos. Ideal para pesquisadores,
-          estudantes e profissionais que precisam interpretar materiais técnicos
-          de forma ágil.
+          Assistente inteligente que interpreta PDFs com suporte de RAG: extrai
+          conteúdo, processa trechos e responde perguntas com base no artigo.
         </p>
 
         <a
