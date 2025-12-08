@@ -62,7 +62,7 @@ export default function Projects() {
 
         <p>
           Aplicação completa para controle de reagentes: CRUD, autenticação,
-          estoque, validade e alertas automáticos.
+          estoque, validade e alertas automáticos (User - Test#2025).
         </p>
 
         <a
