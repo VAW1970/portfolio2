@@ -50,19 +50,20 @@ export default function Projects() {
         viewport={{ once: true }}
         style={{ marginTop: "1.5rem" }}
       >
-        <h3>🧪 CRUD Django — Gerenciamento de Reagentes Químicos</h3>
+        <h3>🧪 Gerenciamento de Reagentes Químicos - duas versões</h3>
 
         <div className="badges">
           <span className="badge">Python</span>
           <span className="badge">Django</span>
           <span className="badge">SQLite</span>
-          <span className="badge">Autenticação</span>
-          <span className="badge">Deploy PythonAnywhere</span>
+          <span className="badge">TypeScript</span>
+          <span className="badge">Next</span>
+          <span className="badge">Autenticação</span>          
         </div>
 
         <p>
-          Aplicação completa para controle de reagentes: CRUD, autenticação,
-          estoque, validade e alertas automáticos (User - Test#2025).
+          Aplicação para controle de reagentes: autenticação,
+          estoque, validade e alertas automáticos.
         </p>
 
         <a
@@ -70,7 +71,14 @@ export default function Projects() {
           target="_blank"
           className="project-btn"
         >
-          🔗 Acessar o Sistema
+          🔗 Projeto Python
+        </a>
+         <a
+          href="https://chemstore2.vercel.app/"
+          target="_blank"
+          className="project-btn"
+        >
+          🔗 Projeto TypeScript
         </a>
       </motion.div>
 
