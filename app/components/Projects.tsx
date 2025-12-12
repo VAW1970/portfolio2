@@ -67,7 +67,7 @@ export default function Projects() {
         </p>
 
         <a
-          href="https://valdiraw.pythonanywhere.com/"
+          href="https://vaw.pythonanywhere.com/"
           target="_blank"
           className="project-btn"
         >
