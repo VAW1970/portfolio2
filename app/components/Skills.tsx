@@ -19,8 +19,7 @@ export default function Skills() {
           <h4>🔹 Web & Data</h4>
           <ul>
             <li>Next.js / React</li>
-            <li>Django</li>
-            <li>Streamlit</li>
+            <li>Django / Streamlit</li>
             <li>SQL</li>
             <li>ETL & Manipulação de Dados</li>
           </ul>
