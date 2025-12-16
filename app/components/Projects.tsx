@@ -99,7 +99,7 @@ export default function Projects() {
           <span className="badge">Pytorch</span>
           <span className="badge">Tensorflow</span>
           <span className="badge">Opencv</span>
-          <span className="badge">TypeScript</span>
+          <span className="badge">Streamlit</span>
           <span className="badge">Visão Computacional</span>         
         </div>
 
@@ -109,7 +109,7 @@ export default function Projects() {
         </p>
 
         <a
-          href="https://labglass2.vercel.app"
+          href="https://labglassware.streamlit.app/"
           target="_blank"
           className="project-btn"
         >
